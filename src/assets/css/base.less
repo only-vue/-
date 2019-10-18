@@ -1,0 +1,371 @@
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+a {
+}
+html {
+  color: #252525;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+html * {
+  outline: 0;
+  -webkit-text-size-adjust: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  vertical-align: top;
+  font-family: 微软雅黑;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  font-family: 微软雅黑;
+  font-size: 14px;
+}
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td,
+hr,
+button,
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+menu,
+nav,
+section {
+  margin: 0;
+  padding: 0;
+}
+
+input,
+select,
+textarea {
+  font-size: 14px;
+  -webkit-appearance: none;
+  border-radius: 0;
+  vertical-align: middle;
+}
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  font-size: 13px;
+  color: #848484;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+fieldset,
+img {
+  border: 0;
+}
+img[src=''] {
+  opacity: 0;
+}
+abbr,
+acronym {
+  border: 0;
+  font-variant: normal;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+th,
+var,
+i {
+  font-style: normal;
+  font-weight: normal;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+ul,
+li {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+caption,
+th {
+  text-align: left;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: 500;
+}
+
+q:before,
+q:after {
+  content: '';
+}
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+a {
+  color: #252525;
+  text-decoration: none;
+}
+a:hover {
+  color: #252525;
+  text-decoration: none;
+}
+a:visited {
+  color: #252525;
+  text-decoration: none;
+}
+
+ins,
+a {
+  text-decoration: none;
+}
+
+button {
+  -webkit-appearance: none;
+  border: 0;
+  background: 0 0;
+}
+
+input,
+button,
+textarea,
+select,
+optgroup,
+option {
+  font-family: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  outline: 0;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+input[type='button'],
+input[type='submit'],
+input[type='reset'] {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+
+textarea {
+  -webkit-appearance: none;
+}
+
+body {
+  font-family: 微软雅黑;
+  line-height: 1.5;
+  color: #252525;
+  /*-webkit-user-select: none;*/
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  outline: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+fieldset,
+img {
+  border: 0;
+  outline: none;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+  font-style: normal;
+  font-weight: normal;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+q:before,
+q:after {
+  content: '';
+}
+
+/*文字排版、颜色*/
+.f12,
+.f12 * {
+  font-size: 12px;
+}
+
+.f13 {
+  font-size: 13px;
+}
+
+.f14 {
+  font-size: 14px;
+}
+
+.f16 {
+  font-size: 16px;
+}
+
+.f20 {
+  font-size: 20px;
+}
+
+.fb {
+  font-weight: bold;
+}
+
+.fn {
+  font-weight: normal;
+}
+
+.fw {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.red,
+a.red {
+  color: #cf1e41 !important;
+}
+
+.blue,
+a.blue {
+  color: #428bca !important;
+}
+
+.gray,
+a.gray {
+  color: #a1a1a1 !important;
+}
+
+.green,
+a.green {
+  color: #2db200;
+}
+
+.zoom {
+  zoom: 1;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.hide {
+  display: none;
+}
+
+.mz0 {
+  margin: 0px !important;
+}
+
+/*  垂直居中  */
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: Center;
+}
+/*  公用头部  */
+
+.van-swipe__indicators {
+  bottom: 55px !important;
+}
+.van-swipe__indicator {
+  background-color: rgba(255, 255, 255, 0.6) !important;
+}
+.van-swipe__indicator--active {
+  background-color: #fff !important;
+  width: 10px !important;
+  border-radius: 10px !important;
+}
+#app {
+  overflow: hidden !important;
+}
+.main {
+  width: 100%;
+  height: 100%;
+  overflow: auto !important;
+  position: relative;
+  -webkit-overflow-scrolling: touch !important;
+}
+
+
